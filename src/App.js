@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
+// import del elemento principal
+import Intui from './components/jsx/intui';
 
 class App extends Component {
   render() {
@@ -20,6 +23,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <Intui/>
       </div>
     );
   }
