@@ -2,9 +2,11 @@ import React from 'react';
 
 // Este es el componente que pasa los elementos a App.js
 
-function Intui () {
+function Intui (props) {
   return (
-    <div></div>
+    <div>
+    <p>{props.author}</p>
+    </div>
   )
 }
 

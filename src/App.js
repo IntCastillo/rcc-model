@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './components/modules/intui.scss';
 
 // import del elemento principal
@@ -9,24 +8,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-        <Intui/>
+      <h1>react-castillo-template</h1>
+      <hr/>
+        <Intui author="Cristian Castillo. 2019-next."/>
       </div>
     );
   }
 }
-
 export default App;
