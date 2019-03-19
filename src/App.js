@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.scss';
+import './components/modules/intui.scss';
 
 // import del elemento principal
 import Intui from './components/jsx/intui';
